@@ -72,7 +72,7 @@ function ContactForm() {
         <div className="appointment-form-section">
             <h1 className="legal-siteTitle">
                 <Link to="/">
-                    Health <span className="legal-siteSign">+</span>
+                    Satyam <span className="legal-siteSign">+</span>
                 </Link>
             </h1>
 
@@ -138,7 +138,7 @@ function ContactForm() {
             </div>
 
             <div className="legal-footer">
-                <p>© 2013-2023 Health+. All rights reserved.</p>
+                <p>© 2023 Satyam Neuorology Hospital. All rights reserved.</p>
             </div>
 
             <ToastContainer autoClose={5000} limit={1} closeButton={false} />

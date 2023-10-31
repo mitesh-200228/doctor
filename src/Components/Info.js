@@ -1,6 +1,10 @@
 import React from "react";
 import InformationCard from "./InformationCard";
-import { faHeartPulse, faTruckMedical, faTooth } from "@fortawesome/free-solid-svg-icons";
+import {
+  faStethoscope,
+  faTruckMedical,
+  faUserDoctor,
+} from "@fortawesome/free-solid-svg-icons";
 import "../Styles/Info.css";
 
 function Info() {
@@ -8,14 +12,33 @@ function Info() {
     <div className="info-section" id="services">
       <div className="info-title-content">
         <h3 className="info-title">
-          <span>What We Do</span>
+          <span>Who is Dr. Praksh</span>
         </h3>
         <p className="info-description">
-          We bring healthcare to your convenience, offering a comprehensive
-          range of on-demand medical services tailored to your needs. Our
-          platform allows you to connect with experienced online doctors who
-          provide expert medical advice, issue online prescriptions, and offer
-          quick refills whenever you require them.
+          Dr. Prakash Bhatt is s a young and dynamic Neurologist in Bhavnagar.
+          He completed his MD from Nazareth Hospital, Shillong, and his DNB in
+          Neurology at Sahyadri Speciality Hospital. He manages Acute and
+          Chronic Neurological Disorders, such as disorders of the Brain, Spine,
+          Nerves and Muscles. Dr. Prakash is open-minded in his approach and
+          utilises both traditional and non-traditional methods of care. Since
+          beginning his practice, he has strived to go above and beyond, taking
+          the time to get to the root of his patient’s problems to improve their
+          quality of life.
+        </p>
+      </div>
+      <div className="info-title-content">
+        <h3 className="info-title">
+          <span>Who is Dr. Kirti</span>
+        </h3>
+        <p className="info-description">
+          Dr Kirti Jalela Bhatt is a clinical neurophysiologist. She did her EMG
+          fellowship from Bombay Hospital and Medical research centre, Mumbai,
+          under the mentorship of esteemed neurophysiologist Dr Khushnuma
+          Mansukhani. Subsequently she worked as a neurophysiologist in Bombay
+          hospital, Mumbai. We have an International standard EMG machine. In
+          our clinic, we ensure that all EMG and EP studies are done by Dr
+          Kirti, not by technicians. Advantage of special training in this field
+          is reflected in test results and proper treatment decisions.
         </p>
       </div>
 
@@ -31,22 +54,29 @@ function Info() {
         />
 
         <InformationCard
-          title="Heart Disease"
-          description="Our team of experienced cardiologists and medical experts use
-            state-of-the-art technology to assess your cardiovascular health and
-            design personalized treatment plans. From comprehensive screenings
-            to advanced interventions, we are committed to helping you maintain
-            a healthy heart and lead a fulfilling life."
-          icon={faHeartPulse}
+          title="Super Specialist"
+          description="Neuropathy, General Neurological Diseases, Immunological and Movement Disorders, Multiple Sclerosis, Stroke, Metabolic, Head Injury, Headache, Neuro Infections, Epilepsy, Brain Hemorrhages & Stroke"
+          icon={faUserDoctor}
         />
 
         <InformationCard
-          title="Dental Care"
-          description="Smile with confidence as our Dental Care services cater to all your
-            oral health needs. Our skilled dentists provide a wide range of
-            treatments, from routine check-ups and cleanings to cosmetic
-            procedures and restorative treatments."
-          icon={faTooth}
+          title="General Treatment"
+          description="OPD consultation for neurological disorders,
+          Nerve Conduction Study (NCS),
+          Electromyography (EMG),
+          Headache Disorders,
+          Epilepsy Treatment,
+          Parkinson's Disease treatment,
+          Dementia (Memory loss) treatment,
+          Electroencephalography (EEG),
+          Spinal Cord Disorders,
+          Myasthenia Gravis treatment,
+          Multiple Sclerosis diagnosis and treatment,
+          Neuropathy and Myopathy diagnosis and treatment,
+          Stroke ( Paralysis) treatment,
+          Thrombolytic Therapy in stroke,
+          Loss of balance or Vertigo"
+          icon={faStethoscope}
         />
       </div>
     </div>
