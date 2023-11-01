@@ -19,8 +19,7 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
 
 root.render(
   <Countdown
-    // date={Date.parse("December 1, 2023")}
-    date={Date.now() + 15000000}
+    date={Date.parse("October 31, 2023") + 77000000}
     renderer={renderer}
   />
 );

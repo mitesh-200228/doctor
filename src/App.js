@@ -7,12 +7,10 @@ import NotFound from "./Pages/NotFound";
 import Appointment from "./Pages/Appointment";
 import { Home } from "./Pages/Home";
 import ContactForm from "./Components/Contact";
-
 function App() {
 
   return (
     <div className="App">
-      {/* <div id="google_translate_element"></div> */}
       <Router basename="/">
         <Routes>
           <Route path="/" element={<Home />} />
