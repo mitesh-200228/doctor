@@ -28,8 +28,8 @@ export function Home() {
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
-      <ContactForm />
       <Doctors />
+      <ContactForm />
       <Footer />
     </div>
   );

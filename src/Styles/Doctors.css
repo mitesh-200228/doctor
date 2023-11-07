@@ -2,7 +2,7 @@
     padding: 32px;
     margin: 0 0 32px 0;
     text-align: center;
-    /* background: linear-gradient(to right, #ffffff, #b8fadb); */
+    background: linear-gradient(to left, #4ca1af, #c4e0e5);
 }
 
 .dt-title-content {
@@ -10,7 +10,7 @@
 }
 
 .dt-title {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'ZCOOL XiaoWei', sans-serif;
     font-size: 40px;
     font-weight: bold;
     letter-spacing: .7px;
@@ -35,7 +35,7 @@
     margin: 64px auto 0;
     text-align: center;
     color: rgb(77, 75, 75);
-    font-family: 'Rubik', sans-serif;
+    font-family: 'ZCOOL XiaoWei', sans-serif;
     font-size: 20px;
     letter-spacing: .8px;
     line-height: 1.8rem;
@@ -58,7 +58,7 @@
     height: 400px;
     gap: 32px;
     text-align: left;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'ZCOOL XiaoWei', sans-serif;
 }
 
 .dt-card-img {
@@ -80,7 +80,7 @@
 .dt-card-title {
     margin: 6px 0 8px;
     color: #494949;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'ZCOOL XiaoWei', sans-serif;
     font-size: 18px;
     letter-spacing: .7px;
 }

@@ -23,8 +23,6 @@ function Hero() {
     navigate("/appointment");
   };
 
-
-
   useEffect(() => {
     const onPageScroll = () => {
       if (window.scrollY > 600) {
@@ -44,64 +42,63 @@ function Hero() {
     <div className="section-container">
       <div className="hero-section">
         <div className="text-section">
-          <p className="text-headline">❤️ Health comes first</p>
-          <h2 className="text-title">Satyam Neurology Hospital - Bhavnagar</h2>
+          <p className="text-headline"> ❤️Health comes first </p>{" "}
+          <h2 className="text-title">
+            {" "}
+            Satyam Neurology Hospital - Bhavnagar{" "}
+          </h2>{" "}
           <p className="text-descritpion">
             "DrNeuro served by Dr Prakash Bhatt who specialized in Neurology. Dr
-            Prakash Bhatt is a young and dynamic Neurologist in Bhavnagar. He is
+            Prakash Bhatt is a young and dynamic Neurologist in Bhavnagar.He is
             able to manage acute and chronic neurological disorders, such as
-            disorders of the Brain, Spine, nerves and muscles." <br></br>
-            <b>Emergency Number: +91 0278-6640664</b>
-          </p>
+            disorders of the Brain, Spine, nerves and muscles. " <br></br>{" "}
+            <b> Emergency Number: +91 0278 - 6640664 </b>{" "}
+          </p>{" "}
           <a href="https://book-appointment.healthplix.com/dr-dr-prakash-bhatt-panwadi-bhavnagar">
             <button
               className="text-appointment-btn"
               type="button"
               // onClick={handleBookAppointmentClick}
             >
-              <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
-            </button>
-          </a>
+              <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment{" "}
+            </button>{" "}
+          </a>{" "}
           <br />
           <button className="text-appointment-btn" id="clock" type="button">
             <FontAwesomeIcon />{" "}
             {isLargerThan800 ? (
               <a href="/contactus" id="exceptional" className="navbar-links">
-                Contact Us
+                Contact Us{" "}
               </a>
             ) : (
               <ClockFun />
-            )}
-          </button>
+            )}{" "}
+          </button>{" "}
           <div className="text-stats">
             <div className="text-stats-container">
-              <p>18k+</p>
-              <p>OPD Patients</p>
+              <p> 18 k + </p> <p> OPD Patients </p>{" "}
             </div>
-
             <div className="text-stats-container">
-              <p>400+</p>
-              <p>Critical Patients</p>
+              <p> 400 + </p> <p> Critical Patients </p>{" "}
             </div>
-
             <div className="text-stats-container">
-              <p>2k+</p>
-              <p>Neuro Procedures</p>
-            </div>
-          </div>
+              <p> 2 k + </p> <p> Neuro Procedures </p>{" "}
+            </div>{" "}
+            <div className="text-stats-container">
+              <p> 45 + </p> <p> Brain Strock Thrombolisis </p>{" "}
+            </div>{" "}
+          </div>{" "}
         </div>
-
         <div className="hero-image-section">
           <img className="hero-image1" src={Doctor} alt="Doctor" />
-        </div>
+        </div>{" "}
       </div>
-
       <div
         onClick={scrollToTop}
         className={`scroll-up ${goUp ? "show-scroll" : ""}`}
       >
-        <FontAwesomeIcon icon={faAngleUp} />
-      </div>
+        <FontAwesomeIcon icon={faAngleUp} />{" "}
+      </div>{" "}
     </div>
   );
 }

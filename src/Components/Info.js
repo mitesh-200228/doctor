@@ -12,23 +12,25 @@ function Info() {
     <div className="info-section" id="services">
       <div className="info-title-content">
         <h3 className="info-title">
-          <span>Who is Dr. Praksh</span>
+          <span>Know your Dr. Praksh</span>
         </h3>
         <p className="info-description">
           Dr. Prakash Bhatt is s a young and dynamic Neurologist in Bhavnagar.
+          <br></br>
           He completed his MD from Nazareth Hospital, Shillong, and his DNB in
-          Neurology at Sahyadri Speciality Hospital. He manages Acute and
-          Chronic Neurological Disorders, such as disorders of the Brain, Spine,
-          Nerves and Muscles. Dr. Prakash is open-minded in his approach and
-          utilises both traditional and non-traditional methods of care. Since
-          beginning his practice, he has strived to go above and beyond, taking
-          the time to get to the root of his patient’s problems to improve their
-          quality of life.
+          Neurology at Sahyadri Speciality Hospital. <br></br>
+          He manages Acute and Chronic Neurological Disorders, such as disorders
+          of the Brain, Spine, Nerves and Muscles. <br></br>
+          Dr. Prakash is open-minded in his approach and utilises both
+          traditional and non-traditional methods of care. Since beginning his
+          practice, he has strived to go above and beyond, taking the time to
+          get to the root of his patient’s problems to improve their quality of
+          life. <br></br>
         </p>
       </div>
       <div className="info-title-content">
         <h3 className="info-title">
-          <span>Who is Dr. Kirti</span>
+          <span>Know your Dr. Kirti</span>
         </h3>
         <p className="info-description">
           Dr Kirti Jalela Bhatt is a clinical neurophysiologist. She did her EMG
