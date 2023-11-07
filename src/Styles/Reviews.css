@@ -1,10 +1,10 @@
 .review-section {
-    padding: 0px;
+    padding: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
-    background: linear-gradient(to left, #4ca1af, #c4e0e5);
+    background: linear-gradient(to right, #ECF2FF, #FBFCFF);
 }
 
 
@@ -86,7 +86,7 @@
 }
 
 .rw-reviewer-name {
-    font-family: 'ZCOOL XiaoWei', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-weight: bold;
     letter-spacing: .8px;
@@ -95,7 +95,7 @@
 .rw-reviewer-place {
     margin: 6px 0 0 0;
     color: #6F7074;
-    font-family: 'ZCOOL XiaoWei', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 18px;
     font-weight: bold;
     letter-spacing: .8px;
