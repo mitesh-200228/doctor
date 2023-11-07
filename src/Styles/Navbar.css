@@ -14,12 +14,12 @@
 }
 
 .navbar-title {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'ZCOOL XiaoWei', sans-serif;
 }
 
 .navbar-sign {
     color: #54de54;
-    font-family: Cambria, sans-serif;
+    font-family: 'ZCOOL XiaoWei', sans-serif;
     font-size: 40px;
     font-weight: bold;
 }
@@ -30,7 +30,7 @@
     justify-content: center;
     align-items: center;
     gap: 32px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'ZCOOL XiaoWei', sans-serif;
 }
 
 .navbar-items>li {
@@ -64,7 +64,7 @@
     outline: transparent;
     background-color: #1A8EFD;
     font-size: 18px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'ZCOOL XiaoWei', sans-serif;
     letter-spacing: .8px;
     cursor: pointer;
     transition: all .4s ease;
@@ -137,7 +137,7 @@
 .mobile-navbar-links li a {
     text-decoration: none;
     color: black;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'ZCOOL XiaoWei', sans-serif;
     font-weight: bold;
     letter-spacing: .8px;
     transition: color .3s ease-in-out;
